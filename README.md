@@ -115,7 +115,7 @@ Significa que o cliente foi cadastrado com sucesso.
 Cliente cadastrado com sucesso!!
 ```
 #### 500 Internal Server Error
-Significa que o servidor encontrou uma situação com a qual não sabe lidar
+Significa que o servidor encontrou uma situação com a qual não sabe lidar.
 ```
 Internal Server Error
 ```
@@ -152,7 +152,7 @@ Significa que a cidade foi cadastrada com sucesso.
 Cidade cadastrada com sucesso!!
 ```
 #### 500 Internal Server Error
-Significa que o servidor encontrou uma situação com a qual não sabe lidar
+Significa que o servidor encontrou uma situação com a qual não sabe lidar.
 ```
 Internal Server Error
 ```
@@ -165,11 +165,14 @@ http://localhost:6060/cliente/1
 ```
 
 ### Possíveis respostas:
+
+#### 201 No Content
+Significa que o cliente foi removido e não tem nenhum conteúdo para retornar.
 ```
 No Content
 ```
 #### 500 Internal Server Error
-Significa que o servidor encontrou uma situação com a qual não sabe lidar
+Significa que o servidor encontrou uma situação com a qual não sabe lidar.
 ```
 Internal Server Error
 ```
@@ -208,12 +211,12 @@ Bad Request
  OK
 ```
 #### 404 Not Found
-Significa que o id procurado não existe.
+Significa que o id procurado não existe no Banco de Dados.
 ```
 Not Found
 ```
 #### 500 Internal Server Error
-Significa que o servidor encontrou uma situação com a qual não sabe lidar
+Significa que o servidor encontrou uma situação com a qual não sabe lidar.
 ```
 Internal Server Error
 ```
@@ -236,12 +239,12 @@ Significa que a cidade foi encontrada e irá retornar os dados da cidade com o r
 }
 ```
 #### 404 Not Found
-Significa que o nome procurado não existe.
+Significa que o nome procurado não existe no Banco de Dados.
 ```
 Not Found
 ```
 #### 500 Internal Server Error
-Significa que o servidor encontrou uma situação com a qual não sabe lidar
+Significa que o servidor encontrou uma situação com a qual não sabe lidar.
 ```
 Internal Server Error
 ```
@@ -257,7 +260,7 @@ http://localhost:6060/cidade/estado/SP
 
 ### Possíveis respostas:
 #### 200 OK
-Significa que a cidade foi encontrada e irá retornar os dados da cidade com o respectivo nome colocado.
+Significa que a cidade foi encontrada e irá retornar os dados da cidade com a respectiva sigla do estado colocado.
 ```
 {
     "id": 3,
@@ -266,12 +269,12 @@ Significa que a cidade foi encontrada e irá retornar os dados da cidade com o r
 }
 ```
 #### 404 Not Found
-Significa que o nome procurado não existe.
+Significa que o estado procurado não existe no Banco de Dados.
 ```
 Not Found
 ```
 #### 500 Internal Server Error
-Significa que o servidor encontrou uma situação com a qual não sabe lidar
+Significa que o servidor encontrou uma situação com a qual não sabe lidar.
 ```
 Internal Server Error
 ```
@@ -298,12 +301,12 @@ Significa que o cliente foi encontrado e irá retornar os dados cliente com o re
 }
 ```
 #### 404 Not Found
-Significa que o nome procurado não existe.
+Significa que o nome procurado não existe no Banco de Dados.
 ```
 Not Found
 ```
 #### 500 Internal Server Error
-Significa que o servidor encontrou uma situação com a qual não sabe lidar
+Significa que o servidor encontrou uma situação com a qual não sabe lidar.
 ```
 Internal Server Error
 ```
@@ -336,12 +339,12 @@ Significa que o cliente foi encontrado e irá retornar os dados clinte com o id 
 
 ```
 #### 404 Not Found
-Significa que o nome procurado não existe.
+Significa que o id procurado não existe no Banco de Dados.
 ```
 Not Found
 ```
 #### 500 Internal Server Error
-Significa que o servidor encontrou uma situação com a qual não sabe lidar
+Significa que o servidor encontrou uma situação com a qual não sabe lidar.
 ```
 Internal Server Error
 ```
